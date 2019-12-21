@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>紫歌的小主页呀</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zigeecust.github.io/"/>
+  <updated>2019-12-21T06:11:32.093Z</updated>
+  <id>https://zigeecust.github.io/</id>
+  
+  <author>
+    <name>孙鑫宇</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新日志</title>
+    <link href="https://zigeecust.github.io/2019-12-21-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html"/>
+    <id>https://zigeecust.github.io/2019-12-21-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97.html</id>
+    <published>2019-12-21T02:17:47.000Z</published>
+    <updated>2019-12-21T06:11:32.093Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>网站建设方面的更新记录，你有什么好建议的话，一定要在下面给我留言哇！</p><a id="more"></a><h3 id="贴别鸣谢"><a href="#贴别鸣谢" class="headerlink" title="贴别鸣谢"></a><a href="/2019-12-20-Special-thanks.html">贴别鸣谢</a></h3><h3 id="2019-12-21"><a href="#2019-12-21" class="headerlink" title="2019-12-21"></a>2019-12-21</h3><p>1、添加了评论系统<br>2、增添了RSS订阅功能<br><br/></p><h3 id="2019-12-20"><a href="#2019-12-20" class="headerlink" title="2019-12-20"></a>2019-12-20</h3><p>1、采用了HEXO框架<br>2、添加了看板娘こはる<br>3、为部分页面增加了音乐播放器<br><br/></p><h3 id="2019-12-19"><a href="#2019-12-19" class="headerlink" title="2019-12-19"></a>2019-12-19</h3><p>1、在github创建了网页仓库</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;网站建设方面的更新记录，你有什么好建议的话，一定要在下面给我留言哇！&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>特别鸣谢</title>
+    <link href="https://zigeecust.github.io/2019-12-20-Special-thanks.html"/>
+    <id>https://zigeecust.github.io/2019-12-20-Special-thanks.html</id>
+    <published>2019-12-20T15:50:26.000Z</published>
+    <updated>2019-12-21T03:20:46.995Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢："><a href="#在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢：" class="headerlink" title="在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢："></a>在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢：</h2><a id="more"></a>    <div id="aplayer-MpbzpPrW" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1406119519" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-fixed="true"    ></div><h3 id="hexojs-hexo"><a href="#hexojs-hexo" class="headerlink" title="hexojs: hexo"></a><a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">hexojs: hexo</a></h3><h3 id="EYHN-hexo-helper-live2d"><a href="#EYHN-hexo-helper-live2d" class="headerlink" title="EYHN: hexo-helper-live2d"></a><a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">EYHN: hexo-helper-live2d</a></h3><h3 id="MoePlayer-hexo-tag-aplayer"><a href="#MoePlayer-hexo-tag-aplayer" class="headerlink" title="MoePlayer: hexo-tag-aplayer"></a><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">MoePlayer: hexo-tag-aplayer</a></h3><h3 id="Shen-Yu-hexo-theme-ayer"><a href="#Shen-Yu-hexo-theme-ayer" class="headerlink" title="Shen-Yu: hexo-theme-ayer"></a><a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank" rel="noopener">Shen-Yu: hexo-theme-ayer</a></h3><h3 id="xCss-Valine"><a href="#xCss-Valine" class="headerlink" title="xCss: Valine"></a><a href="https://github.com/xCss/Valine" target="_blank" rel="noopener">xCss: Valine</a></h3><br/><br/><br/><font face="微软雅黑" color=#ff0000 size=72>如有遗漏，请务必留言或通过邮箱告知我！</font><br/>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢：&quot;&gt;&lt;a href=&quot;#在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢：&quot; class=&quot;headerlink&quot; title=&quot;在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢：&quot;&gt;&lt;/a&gt;在本网站搭的建过程中，我参照了大量的开源项目。感激他们的无私奉献，我在此特别鸣谢：&lt;/h2&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo info</title>
+    <link href="https://zigeecust.github.io/2019-12-20-hexoInfo.html"/>
+    <id>https://zigeecust.github.io/2019-12-20-hexoInfo.html</id>
+    <published>2019-12-20T02:26:00.000Z</published>
+    <updated>2019-12-20T07:47:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
