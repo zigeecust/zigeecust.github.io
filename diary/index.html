@@ -40,28 +40,29 @@ _______\:\__\ __/:/\/__//:/__/_\:\__\/:/\:\ \:\__\/:/\:\ \:\__\/:/__/ \:\__\/:/_
    \:\__\      \/__/       \::/  /      \:\__\       \:\__\       \:\__\       \::/  /      \::/  /             
     \/__/                   \/__/        \/__/        \/__/        \/__/        \/__/        \/__/              
 -->
+
 <head>
   <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
-  <!--鼠标点击烟花爆炸效果-->
   
-    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-    <script type="text/javascript" src="/js/firework.js"></script>
+
   
+
   
-  <!--动态线条背景-->
+
   
-    <script type="text/javascript" color="255, 235, 59" opacity="0.8" 
-        zIndex="-1" count="99" 
-        src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
-    </script>
+
   
+  <!-- Live2d -->
+  <link rel="stylesheet" type="text/css" href="/live2d/assets/waifu.min.css?v=1.4.2" />
   
-  <!-- 雪花特效2 -->
+
   
-  
-  <!-- 雪花特效3 -->
-  
+    <!-- 续命特效 -->
+    <script type="text/javascript" src="/js/life_number.js"></script>
+    
+
+
+
 </head>
 
 <body>
@@ -342,6 +343,44 @@ _______\:\__\ __/:/\/__//:/__/_\:\__\/:/\:\ \:\__\/:/\:\ \:\__\/:/__/ \:\__\/:/_
   
   
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"superSample":2,"width":200,"height":400,"position":"right","hOffset":30,"vOffset":-30},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false});</script></body>
+
+
+  
+  <!-- 看板娘相关代码 -->
+  <!-- waifu-tips.js 依赖 JQuery 库 -->
+  <script src="/live2d/assets/jquery.min.js?v=3.3.1"></script>
+
+  <!-- 实现拖动效果，需引入 JQuery UI -->
+  <script src="/live2d/assets/jquery-ui.min.js?v=1.12.1"></script>
+
+  <div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" class="live2d"></canvas>
+    <div class="waifu-tool">
+      <span class="fui-home"></span>
+      <span class="fui-chat"></span>
+      <span class="fui-eye"></span>
+      <span class="fui-user"></span>
+      <span class="fui-photo"></span>
+      <span class="fui-info-circle"></span>
+      <span class="fui-cross"></span>
+    </div>
+  </div>
+
+  <script src="/live2d/assets/waifu-tips.min.js?v=1.4.2"></script>
+  <script src="/live2d/assets/live2d.min.js?v=1.0.5"></script>
+  <script type="text/javascript">
+    /* 可直接修改部分参数 */
+    live2d_settings['modelId'] = 3;                    // 默认模型 ID
+    live2d_settings['modelTexturesId'] = 1;            // 默认材质 ID
+    live2d_settings['waifuEdgeSide'] = 'right:30';     // 看板娘贴边方向
+    live2d_settings['waifuDraggableRevert'] = false;   // 松开鼠标还原拖拽位置
+    live2d_settings['waifuDraggable'] = 'unlimited';   // 拖拽样式 无限制
+    /* 在 initModel 前添加 */
+    initModel("/live2d/assets/waifu-tips.json?v=1.4.2")
+  </script>
+  
+
+</body>
 
 </html>
