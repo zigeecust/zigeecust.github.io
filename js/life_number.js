@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    var_click_count=0;
+    var _click_count=0;
     $("body").click(function(e) {
         var $i = $("<span/>").text("+"+(++_click_count)+"s");
         var x = e.pageX, y = e.pageY;
