@@ -72,7 +72,7 @@ body {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: start; /* 页面文字顶端排布 */
   -webkit-flex-flow: column wrap;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
@@ -81,7 +81,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  padding: 0 30%;
+  padding: 10% 30%; /* 页面文字留空 */
   color: #fff;
   -webkit-transform: skewX(18deg);
       -ms-transform: skewX(18deg);

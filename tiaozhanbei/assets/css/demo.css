@@ -199,6 +199,7 @@
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   }
+  
   body section.slideshow .detail .detail-item .headline {
     position: absolute;
     display: block;
@@ -213,6 +214,8 @@
     box-sizing: border-box;
     z-index: 2;
   }
+  
+  /* 此处为滚动的大字样式 */
   @media screen and (max-width: 992px) {
     body section.slideshow .detail .detail-item .headline {
       max-width: calc(100% - 380px);
@@ -223,8 +226,9 @@
       max-width: calc(100% - 120px);
     }
   }
+  
   body section.slideshow .detail .detail-item .headline .letter {
-    font-family: "Playfair Display", serif;
+    font-family: sans-serif;
     position: relative;
     display: inline-block;
     opacity: 0;
