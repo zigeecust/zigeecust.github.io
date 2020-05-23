@@ -7226,6 +7226,9 @@ pre .javascript .function {
     margin: 0 5px;
   }
 }
+.formatted_paragraph p {
+  text-indent: 35px;
+}
 .navbar {
   position: relative;
   padding-top: 3rem;
