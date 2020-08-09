@@ -1,0 +1,11 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>/* 本文件为适用于个人介绍页的样式调整 */
+.name{
+    color: "purple";
+    font-family: "Microsoft YaHei"
+}
+
+p{
+    color: "black";
+    font-size: "medium";
+    line-height: "normal";
+}

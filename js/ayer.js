@@ -175,41 +175,49 @@
   })(jQuery);
 
   // Mobile nav
-  var $content = $('.content'),
-    $sidebar = $('.sidebar'),
-    isMobileNavAnim = false,
-    mobileNavAnimDuration = 200;
+  var $content = $('.content'),           // 获取正文
+    $sidebar = $('.sidebar'),             // 获取边栏
+    isMobileNavAnim = false,              // 动画执行状态位
+    mobileNavAnimDuration = 200;          // 设定动画时间
 
-  var startMobileNavAnim = function () {
+  var startMobileNavAnim = function () {  // 指定状态位
     isMobileNavAnim = true;
   };
 
-  var stopMobileNavAnim = function () {
+  var stopMobileNavAnim = function () {   // 指定时间后清除状态位
     setTimeout(function () {
       isMobileNavAnim = false;
     }, mobileNavAnimDuration);
   };
 
+  /* 边框栏缩进/显示按钮 */
   $('.navbar-toggle').on('click', function () {
-    if (isMobileNavAnim) return;
-    startMobileNavAnim();
+    if (isMobileNavAnim) return;          // 如果正处于动画中，不重复执行
+    startMobileNavAnim();                 // 状态位：动画开始
     $content.toggleClass('on');
     $sidebar.toggleClass('on');
-    stopMobileNavAnim();
+    $aplayer = $('.aplayer-body');        // 获取播放器
+    $aplayer.toggleClass('on');
+    stopMobileNavAnim();                  // 动画结束（超时）后设定状态位：动画结束
   });
 
-  $($content).on('click', function () {
+  /* 点击正文 去除边栏 */
+  $($content).on('click', function () {   
     if (isMobileNavAnim || !$content.hasClass('on')) return;
     $content.removeClass('on');
     $sidebar.removeClass('on');
+    $aplayer = $('.aplayer-body');        // 获取播放器
+    $aplayer.removeClass('on');
   });
 
   if (window.matchMedia("(min-width: 768px)").matches) {
     $content.addClass('on');
     $sidebar.addClass('on');
+    $aplayer = $('.aplayer-body');        // 获取播放器
+    $aplayer.addClass('on');
   }
 
-  // reward
+  // 打赏按钮
   $('#reward-btn').on('click', function () {
     $('#mask').fadeIn(100)
     $('#reward').fadeIn(100)
