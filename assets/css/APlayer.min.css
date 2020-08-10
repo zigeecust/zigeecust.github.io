@@ -91,7 +91,7 @@
 .aplayer .aplayer-body {
     position: fixed;
     bottom: 0;
-    left: 7rem;
+    left: 0rem;
     right: 0;
     margin: 0;
     z-index: 99;
@@ -104,7 +104,7 @@
 
 /* 当侧边栏显示时，播放器偏移7rem */
 .aplayer .aplayer-body.on {
-    transform: translateX(-7rem);
+    transform: translateX(7rem);
 }
 
 .aplayer.aplayer-fixed .aplayer-lrc {

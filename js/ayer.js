@@ -210,12 +210,15 @@
     $aplayer.removeClass('on');
   });
 
+  /* 默认显示边栏 */
+  $(window).bind("load", function () {
   if (window.matchMedia("(min-width: 768px)").matches) {
     $content.addClass('on');
     $sidebar.addClass('on');
     $aplayer = $('.aplayer-body');        // 获取播放器
     $aplayer.addClass('on');
   }
+})
 
   // 打赏按钮
   $('#reward-btn').on('click', function () {
