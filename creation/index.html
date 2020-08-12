@@ -1,165 +1,181 @@
 ﻿<!DOCTYPE html>
-<html lang="ch">
+<html lang="zh-CN">
 
 <head>
-  <meta charset="UTF-8">
-  <title>我的作品|紫歌的小主页呀</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- page switch -->
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <link rel="stylesheet" href="creation/css/style.css">
-  <!-- APlayer -->
-	<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker" />
-	<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
-	<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
-  <!-- Live2d -->
-  <link rel="stylesheet" type="text/css" href="/live2d/assets/waifu.min.css?v=1.4.2" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的作品</title>
 
+    <link rel="stylesheet" href="creation/css/normalize.css">
+    <link rel="stylesheet" href="creation/css/sidebar.css">
+    <link rel="stylesheet" href="creation/css/creation.css">
 
+    <script src="creation/js/jquery.min.js"></script>
+    <script src="creation/js/creation.js"></script>
+    <script src="creation/js/navbar.js"></script>
 </head>
 
 <body>
-  <div class="skw-pages">
-    <div class="skw-page skw-page-1 active">
-      <div class="skw-page__half skw-page__half--left">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content"></div>
+    <main class="carousel">
+        <div class="carousel__stage">
+            <div class="spinner spinner--left">
+                <div class="spinner__face js-active" data-bg="#27323c">
+                    <div class="content" data-type="iceland">
+                        <div class="content__left">
+                            <h1>ICELAND<br><span>EUROPE</span></h1>
+                        </div>
+                        <div class="content__right">
+                            <div class="content__main">
+                                <p>“As I flew north to begin my third circuit of Iceland in four years, I was
+                                    slightly
+                                    anxious.
+                                    The number of visitors to Iceland has doubled in that period, and I feared this
+                                    might
+                                    mean a little less magic to go around. At the end of this trip, 6000km later,
+                                    I'm
+                                    thrilled
+                                    to report that the magic levels remain high. It's found in glorious football
+                                    victories
+                                    and Viking chants, kayaking among icebergs, sitting with puffins under the
+                                    midnight
+                                    sun
+                                    and crunching across brand-new lava fields.” </p>
+                                <p>– Carolyn Bain</p>
+                            </div>
+                            <h3 class="content__index">01</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spinner__face" data-bg="#19304a">
+                    <div class="content" data-type="china">
+                        <div class="content__left">
+                            <h1>CHINA<br><span>ASIA</span></h1>
+                        </div>
+                        <div class="content__right">
+                            <div class="content__main">
+                                <p>“Its modern face is dazzling, but China is no one-trick pony. The world's oldest
+                                    continuous
+                                    civilisation isn't all smoked glass and brushed aluminium and while you won't be
+                                    tripping
+                                    over artefacts – three decades of round-the-clock development and rash
+                                    town-planning
+                                    have taken their toll – rich seams of antiquity await.”</p>
+                                <p>– Damian Harper</p>
+                            </div>
+                            <h3 class="content__index">02</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spinner__face" data-bg="#2b2533">
+                    <div class="content" data-type="usa">
+                        <div class="content__left">
+                            <h1>USA<br><span>NORTH AMERICA</span></h1>
+                        </div>
+                        <div class="content__right">
+                            <div class="content__main">
+                                <p>“When it comes to travel, America has always floored me with its staggering range
+                                    of
+                                    possibilities.
+                                    Not many other countries have so much natural beauty – mountains, beaches,
+                                    rainforest,
+                                    deserts, canyons, glaciers – coupled with fascinating cities to explore, an
+                                    unrivaled
+                                    music scene and all the things that make travel so rewarding (friendly locals,
+                                    great
+                                    restaurants and farmers markets, and plenty of quirky surprises).” </p>
+                                <p>– Regis St Louis</p>
+                            </div>
+                            <h3 class="content__index">03</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="spinner__face" data-bg="#312f2d">
+                    <div class="content" data-type="peru">
+                        <div class="content__left">
+                            <h1>PERU<br><span>SOUTH AMERICA</span></h1>
+                        </div>
+                        <div class="content__right">
+                            <div class="content__main">
+                                <p>“For me, Peru is the molten core of South America, a distillation of the oldest
+                                    traditions
+                                    and the finest building, weaving and art made by the most sophisticated cultures
+                                    on
+                                    the
+                                    continent. In Peru the wildest landscapes – from frozen Andean peaks to the deep
+                                    Amazon
+                                    – help us re-forge our connection to the natural world. It is also a cultural
+                                    stew,
+                                    where
+                                    diverse peoples live side by side, negotiating modern life with humor and
+                                    aplomb.
+                                    Beyond
+                                    that, the cuisine alone makes it worth the trip. Every return is rich and
+                                    surprising.”</p>
+                                <p>– Carolyn McCarthy</p>
+                            </div>
+                            <h3 class="content__index">04</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="skw-page__half skw-page__half--right">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-            <h2 class="skw-page__heading">想看看我的作品吗？(๑╹◡╹)ﾉ"""</h2>
-            <p class="skw-page__description" style="white-space:nowrap">- 以下内容按时间顺序排序 -</p>
-            <br>
-            <p class="skw-page__description" style="white-space:nowrap;font-style:italic;">原则上不欢迎转载，欢迎分享本网页链接</p>
-            <p class="skw-page__license" style="white-space:nowrap">
-              <a class="skw-page__license" rel="auther" href="https://zigeecust.github.io/Myself/">孙鑫宇</a>的<a
-                class="skw-page__license" rel="creation" href="https://zigeecust.github.io/creation/">作品集</a></a>采用<a
-                class="skw-page__license" rel="license"
-                href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>许可协议
-            </p>
-          </div>
+        <div class="carousel__control">
         </div>
-      </div>
-    </div>
-    <div class="skw-page skw-page-2">
-      <div class="skw-page__half skw-page__half--left">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-            <h2 class="skw-page__heading">Page 2</h2>
-            <p class="skw-page__description">Nothing to do here, continue scrolling.</p>
-          </div>
-        </div>
-      </div>
-      <div class="skw-page__half skw-page__half--right">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content"></div>
-        </div>
-      </div>
+    </main>
+
+    <!--  Poor man's preloader -->
+    <div style="height: 0; width: 0; overflow: hidden">
+        <img src="images/peru.jpg">
     </div>
 
-    <div class="skw-page skw-page-3">
-      <div class="skw-page__half skw-page__half--left">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content"></div>
-        </div>
-      </div>
-      <div class="skw-page__half skw-page__half--right">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-            <h2 class="skw-page__heading">Page 3</h2>
-            <p class="skw-page__description">The end is near, I promise!</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <aside class="sidebar">
+        <button class="navbar-toggle"></button>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/"><img src="/images/zige.svg" alt="紫歌的小主页呀"></a>
+            </div>
+            <ul class="nav nav-main">
+                <li class="nav-item">
+                    <a class="nav-item-link" href="/">主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="/Myself">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="/archives">时间轴</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="/tags">标签</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="/diary">日记</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="/creation">作品</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar navbar-bottom">
+            <ul class="nav">
+                <li class="nav-item">
 
-    <div class="skw-page skw-page-4">
-      <div class="skw-page__half skw-page__half--left">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-            <h2 class="skw-page__heading">Page 4</h2>
-            <p class="skw-page__description">Ok, ok, just one more scroll!</p>
-          </div>
-        </div>
-      </div>
-      <div class="skw-page__half skw-page__half--right">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content"></div>
-        </div>
-      </div>
-    </div>
 
-    <div class="skw-page skw-page-5">
-      <div class="skw-page__half skw-page__half--left">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content"></div>
-        </div>
-      </div>
-      <div class="skw-page__half skw-page__half--right">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-            <h2 class="skw-page__heading">Page 5</h2>
-            <p class="skw-page__description">
-              Feel free to check
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="skw-page skw-page-6">
-      <div class="skw-page__half skw-page__half--right">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-          </div>
-        </div>
-      </div>
-      <div class="skw-page__half skw-page__half--left">
-        <div class="skw-page__skewed">
-          <div class="skw-page__content">
-            <h2 class="skw-page__heading">Page 6</h2>
-            <p class="skw-page__description">Nothing to do here, continue scrolling.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                    <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+                        <i class="ri-rss-line"></i>
+                    </a>
 
-  <script src="creation/js/script.js"></script>
-
- <!-- Aplayer -->
-  <div id="aplayer-YqcVjxGq" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="451104927"
-    data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true"
-    data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-fixed="true">
-  </div>
-
- <!-- 看板娘相关代码 -->
-  <script src="/live2d/assets/jquery.min.js?v=3.3.1"></script>
-  <script src="/live2d/assets/jquery-ui.min.js?v=1.12.1"></script>
-  <div class="waifu">
-    <div class="waifu-tips"></div>
-    <canvas id="live2d" class="live2d"></canvas>
-    <div class="waifu-tool">
-      <span class="fui-home"></span>
-      <span class="fui-chat"></span>
-      <span class="fui-eye"></span>
-      <span class="fui-user"></span>
-      <span class="fui-photo"></span>
-      <span class="fui-info-circle"></span>
-      <span class="fui-cross"></span>
-    </div>
-  </div>
-  <script src="/live2d/assets/waifu-tips.min.js?v=1.4.2"></script>
-  <script src="/live2d/assets/live2d.min.js?v=1.0.5"></script>
-  <script type="text/javascript">
-    live2d_settings['modelId'] = 3;                    // 默认模型 ID
-    live2d_settings['modelTexturesId'] = 1;            // 默认材质 ID
-    live2d_settings['waifuEdgeSide'] = 'right:30';     // 看板娘贴边方向
-    live2d_settings['waifuDraggableRevert'] = false;   // 松开鼠标还原拖拽位置
-    live2d_settings['waifuDraggable'] = 'unlimited';   // 拖拽样式 无限制
-    initModel("/live2d/assets/waifu-tips.json")
-  </script>
+                </li>
+            </ul>
+        </nav>
+        <div class="search-form-wrap">
+            <div class="local-search local-search-plugin">
+                <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+                <div id="local-search-result" class="local-search-result"></div>
+            </div>
+        </div>
+    </aside>
 </body>
 
 </html>

@@ -21,6 +21,7 @@ body {
   top: 0;
   width: 100%;
 }
+
 .skw-page__half {
   position: absolute;
   top: 0;
@@ -29,20 +30,25 @@ body {
   -webkit-transition: -webkit-transform 1s;
           transition: transform 1s;
 }
+
 .skw-page__half--left {
   left: 0;
   -webkit-transform: translate3d(-32.4vh, 100%, 0);
           transform: translate3d(-32.4vh, 100%, 0);
 }
+
 .skw-page__half--right {
   left: 50%;
   -webkit-transform: translate3d(32.4vh, -100%, 0);
           transform: translate3d(32.4vh, -100%, 0);
 }
+
+/* 显示 */
 .skw-page.active .skw-page__half {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
+
 .skw-page__skewed {
   overflow: hidden;
   position: absolute;
@@ -54,12 +60,15 @@ body {
           transform: skewX(-18deg);
   background: #000;
 }
+
 .skw-page__half--left .skw-page__skewed {
   left: -40%;
 }
+
 .skw-page__half--right .skw-page__skewed {
   right: -40%;
 }
+
 .skw-page__content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -90,6 +99,7 @@ body {
           transition: transform 1s, opacity 1s;
   background-size: cover;
 }
+
 .skw-page__half--left .skw-page__content {
   padding-left: 30%;
   padding-right: 30%;
@@ -97,6 +107,7 @@ body {
       -ms-transform-origin: 100% 0;
           transform-origin: 100% 0;
 }
+
 .skw-page__half--right .skw-page__content {
   padding-left: 30%;
   padding-right: 30%;
@@ -104,12 +115,15 @@ body {
       -ms-transform-origin: 0 100%;
           transform-origin: 0 100%;
 }
+
+/* 消失 */
 .skw-page.inactive .skw-page__content {
   opacity: 0.5;
   -webkit-transform: skewX(18deg) scale(0.95);
       -ms-transform: skewX(18deg) scale(0.95);
           transform: skewX(18deg) scale(0.95);
 }
+
 .skw-page__heading {
   margin-bottom: 15px;
   white-space: nowrap;
@@ -117,25 +131,31 @@ body {
   font-size: 25px;
   text-align: center;
 }
+
 .skw-page__description {
   font-size: 18px;
   text-align: center;
 }
+
 .skw-page__license{
   font-size: 18px;
   text-align: center;
   color: gainsboro;
   font-style: italic;
 }
+
 .skw-page__link {
   color: #FFA0A0;
 }
+
 .skw-page-1 .skw-page__half--left .skw-page__content {
   background-image: url("../../../Myself/MeWithCup.jpg");
   background-repeat:no-repeat;
   background-size:100%;
   background-position: 50% 15%;
 }
+
+/* 图案填充 */
 .skw-page-1 .skw-page__half--right .skw-page__content {
   background: #292929;
 }
