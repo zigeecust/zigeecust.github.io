@@ -219,7 +219,17 @@ body {
   color: #fff;
   width: 100%;
   letter-spacing: 0.15em;
-  line-height: 0.6;
+  line-height: 1.25;
+  /*
+  text-shadow: -1px 0 black, 0 1px white, 1px 0 white, 0 -1px white;
+*/
+  text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+
+-webkit-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+
+-moz-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+
+*filter: Glow(color=#000, strength=1);
 }
 
 .content__left span {
@@ -270,11 +280,11 @@ body {
   color: #fff;
 }
 
-[data-type="iceland"] .content__left {
-  background-image: url("../img/un4.jpg");
+[data-type="blind"] .content__left {
+  background-image: url("../img/导盲辅具.jpg");
 }
 
-.spinner--right [data-type="iceland"] .content__left {
+.spinner--right [data-type="blind"] .content__left {
   background-image: none;
 }
 

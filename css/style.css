@@ -7229,6 +7229,21 @@ pre .javascript .function {
 .formatted_paragraph p {
   text-indent: 35px;
 }
+.specific-page-myself table .name {
+  color: "black";
+  font-family: "Microsoft YaHei";
+}
+.specific-page-myself table p {
+  color: "black";
+  font-size: "medium";
+  line-height: "normal";
+  font-family: "STSong";
+}
+.specific-page-myself table a:link {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}
 .navbar {
   position: relative;
   padding-top: 3rem;

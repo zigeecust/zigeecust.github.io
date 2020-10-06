@@ -1,0 +1,21 @@
+#specific-page-myself .table-business-card {
+  margin: auto;
+  width: 90%;
+  border: 1px;
+  padding: 10px;
+}
+#specific-page-myself .table-business-card .name {
+  color: #000;
+  font-family: Microsoft YaHei;
+}
+#specific-page-myself .table-business-card p {
+  color: #000;
+  font-size: medium;
+  line-height: normal;
+  font-family: STSong;
+}
+#specific-page-myself .table-business-card a:link {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}

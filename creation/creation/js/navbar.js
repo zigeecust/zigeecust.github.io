@@ -32,12 +32,19 @@ $(function () {
     $sidebar.removeClass('on');
   });
 
+  document.onmousewheel = function (e) {
+    if (isMobileNavAnim || !$content.hasClass('on')) return;
+    $content.removeClass('on');
+    $sidebar.removeClass('on');
+
+};
+
   /* 默认显示边栏 */
   $(window).bind("load", function () {
   if (window.matchMedia("(min-width: 768px)").matches) {
     $content.addClass('on');
     $sidebar.addClass('on');
   }
-})
+});
 
 })(jQuery);
