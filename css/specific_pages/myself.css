@@ -19,3 +19,101 @@
   text-decoration: none;
   font-style: normal;
 }
+#specific-page-myself .wrapper {
+  margin: 0 auto;
+  margin-top: 2%;
+}
+#specific-page-myself ul.gallery {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  list-style: none;
+  padding: 5px;
+}
+#specific-page-myself ul.gallery li {
+  border: 5px solid #fff;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 125px;
+  margin: 0 20px 20px 0;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 4px #ccc, 0 0 40px #ccc inset;
+  -moz-box-shadow: 0 1px 4px #ccc, 0 0 40px #ccc inset;
+  box-shadow: 0 1px 4px #ccc, 0 0 40px #ccc inset;
+}
+#specific-page-myself ul.gallery li:before,
+#specific-page-myself ul.gallery li:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 70%;
+  height: 55%;
+  -webkit-box-shadow: 0 15px 16px #6b6b6b;
+  -moz-box-shadow: 0 15px 16px #6b6b6b;
+  box-shadow: 0 15px 16px #6b6b6b;
+  -webkit-transform: skew(-15deg) rotate(-6deg);
+  -moz-transform: skew(-15deg) rotate(-6deg);
+  -ms-transform: skew(-15deg) rotate(-6deg);
+  -o-transform: skew(-15deg) rotate(-6deg);
+  transform: skew(-15deg) rotate(-6deg);
+}
+#specific-page-myself ul.gallery li:after {
+  left: auto;
+  right: 11px;
+  -webkit-transform: skew(15deg) rotate(6deg);
+  -moz-transform: skew(15deg) rotate(6deg);
+  -ms-transform: skew(15deg) rotate(6deg);
+  -o-transform: skew(15deg) rotate(6deg);
+  transform: skew(15deg) rotate(6deg);
+}
+#specific-page-myself a.gallery_links img {
+  border: none;
+}
+#specific-page-myself a.gallery_links {
+  position: relative;
+  text-decoration: none;
+}
+#specific-page-myself a.gallery_links:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  background: #111;
+  padding: 5px 15px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0px 0px 1px #000;
+  white-space: nowrap;
+  opacity: 0;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  width: 85;
+}
+#specific-page-myself a.gallery_links:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  opacity: 0;
+  left: 30%;
+  bottom: 90%;
+}
+#specific-page-myself a.gallery_links:hover:after {
+  bottom: 100%;
+}
+#specific-page-myself a.gallery_links:hover:before {
+  bottom: 70%;
+}
+#specific-page-myself a.gallery_links:hover:after,
+#specific-page-myself a.gallery_links:hover:before {
+  opacity: 1;
+}
