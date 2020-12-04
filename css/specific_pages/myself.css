@@ -19,6 +19,24 @@
   text-decoration: none;
   font-style: normal;
 }
+#specific-page-myself .table-business-card a:hover {
+  text-decoration: underline;
+}
+#specific-page-myself .achievements-word {
+  color: #000;
+  font-family: Microsoft YaHei;
+}
+#specific-page-myself .achievements-word a:link,
+#specific-page-myself .achievements-word a:active,
+#specific-page-myself .achievements-word a:visited,
+#specific-page-myself .achievements-word a:hover {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}
+#specific-page-myself .achievements-word a:hover {
+  text-decoration: underline;
+}
 #specific-page-myself .wrapper {
   margin: 0 auto;
   margin-top: 2%;
